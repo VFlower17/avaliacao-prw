@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: antiquewhite;
+    height: 5em;
+    text-align: center;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -253px;
+    width: 250px;
+    height: 100%;
+    background-color: antiquewhite;
+    transition: left 0.6 ease-in-out;
+    border-right: solid 2px rgb(255, 250, 227);
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bar1, .bar2, .bar3{
+    background-color: white;
+    width: 85%;
+    height: 15%;
+    margin: 5px;
+    margin: 5px 2px;
+    border-radius: 3px;
+}
